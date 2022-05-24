@@ -1,0 +1,86 @@
+2022-05-24 10:12:06.694  INFO 13252 --- [main] c.a.p.ProductrestapiApplication          : Starting ProductrestapiApplication using Java 17.0.1 on Chetan with PID 13252 (D:\internship_persi_stuff\spring_projects\workspace-spring-tool-suite-4-4.13.1.RELEASE\productrestapi\target\classes started by Asus in D:\internship_persi_stuff\spring_projects\workspace-spring-tool-suite-4-4.13.1.RELEASE\productrestapi)
+2022-05-24 10:12:06.698  INFO 13252 --- [main] c.a.p.ProductrestapiApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 10:12:07.632  INFO 13252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 10:12:07.675  INFO 13252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-05-24 10:12:08.017  INFO 13252 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2343ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-24 10:12:08.116  INFO 13252 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2022-05-24 10:12:08.118  INFO 13252 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.45.v20220203; built: 2022-02-03T09:14:34.105Z; git: 4a0c91c0be53805e3fcffdcdcc9587d5301863db; jvm 17.0.1+12
+2022-05-24 10:12:08.147  INFO 13252 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2022-05-24 10:12:08.147  INFO 13252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1408 ms
+2022-05-24 10:12:08.297  INFO 13252 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2022-05-24 10:12:08.297  INFO 13252 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2022-05-24 10:12:08.298  INFO 13252 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2022-05-24 10:12:08.304  INFO 13252 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@28e8888d{application,/productapi,[file:///C:/Users/Asus/AppData/Local/Temp/jetty-docbase.8080.6205072669640895700/],AVAILABLE}
+2022-05-24 10:12:08.304  INFO 13252 --- [main] org.eclipse.jetty.server.Server          : Started @2631ms
+2022-05-24 10:12:08.382  INFO 13252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 10:12:08.696  INFO 13252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 10:12:08.730  INFO 13252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 10:12:08.764  INFO 13252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-24 10:12:08.905  INFO 13252 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 10:12:09.007  INFO 13252 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 10:12:09.352  INFO 13252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 10:12:09.358  INFO 13252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 10:12:09.581  WARN 13252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-24 10:12:09.966  INFO 13252 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 367134f9-a00b-4ff2-ad42-1750fd6f019e
+
+2022-05-24 10:12:10.063  INFO 13252 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-05-24 10:12:10.079  INFO 13252 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-24 10:12:10.149  INFO 13252 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 10:12:10.149  INFO 13252 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 10:12:10.151  INFO 13252 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-05-24 10:12:10.173  INFO 13252 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@46e190ed{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-05-24 10:12:10.174  INFO 13252 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2022-05-24 10:12:10.186  INFO 13252 --- [main] c.a.p.ProductrestapiApplication          : Started ProductrestapiApplication in 3.817 seconds (JVM running for 4.513)
+2022-05-24 10:15:13.823  INFO 13252 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-24 10:15:13.833  INFO 13252 --- [RMI TCP Connection(6)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@46e190ed{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-05-24 10:15:13.833  INFO 13252 --- [RMI TCP Connection(6)-127.0.0.1] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2022-05-24 10:15:13.835  INFO 13252 --- [RMI TCP Connection(6)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-24 10:15:13.836  INFO 13252 --- [RMI TCP Connection(6)-127.0.0.1] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@28e8888d{application,/productapi,[file:///C:/Users/Asus/AppData/Local/Temp/jetty-docbase.8080.6205072669640895700/],STOPPED}
+2022-05-24 10:15:13.841  INFO 13252 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 10:15:13.843  INFO 13252 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 10:15:13.851  INFO 13252 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 10:15:17.616  INFO 3728 --- [main] c.a.p.ProductrestapiApplication          : Starting ProductrestapiApplication using Java 17.0.1 on Chetan with PID 3728 (D:\internship_persi_stuff\spring_projects\workspace-spring-tool-suite-4-4.13.1.RELEASE\productrestapi\target\classes started by Asus in D:\internship_persi_stuff\spring_projects\workspace-spring-tool-suite-4-4.13.1.RELEASE\productrestapi)
+2022-05-24 10:15:17.618  INFO 3728 --- [main] c.a.p.ProductrestapiApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 10:15:18.237  INFO 3728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 10:15:18.273  INFO 3728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-05-24 10:15:18.552  INFO 3728 --- [main] org.eclipse.jetty.util.log               : Logging initialized @1770ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-24 10:15:18.658  INFO 3728 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2022-05-24 10:15:18.660  INFO 3728 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.45.v20220203; built: 2022-02-03T09:14:34.105Z; git: 4a0c91c0be53805e3fcffdcdcc9587d5301863db; jvm 17.0.1+12
+2022-05-24 10:15:18.685  INFO 3728 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2022-05-24 10:15:18.685  INFO 3728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1032 ms
+2022-05-24 10:15:18.840  INFO 3728 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2022-05-24 10:15:18.840  INFO 3728 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2022-05-24 10:15:18.841  INFO 3728 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2022-05-24 10:15:18.846  INFO 3728 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@eed890d{application,/productapi,[file:///C:/Users/Asus/AppData/Local/Temp/jetty-docbase.8080.16423040412179975885/],AVAILABLE}
+2022-05-24 10:15:18.847  INFO 3728 --- [main] org.eclipse.jetty.server.Server          : Started @2066ms
+2022-05-24 10:15:18.918  INFO 3728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 10:15:19.188  INFO 3728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 10:15:19.221  INFO 3728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 10:15:19.257  INFO 3728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-24 10:15:19.392  INFO 3728 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 10:15:19.491  INFO 3728 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 10:15:19.827  INFO 3728 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 10:15:19.833  INFO 3728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 10:15:20.028  WARN 3728 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-24 10:15:20.378  INFO 3728 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 86dd570f-4e4d-4334-8ccf-3332f0966b1e
+
+2022-05-24 10:15:20.466  INFO 3728 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-05-24 10:15:20.478  INFO 3728 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-24 10:15:20.543  INFO 3728 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 10:15:20.543  INFO 3728 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 10:15:20.544  INFO 3728 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-24 10:15:20.560  INFO 3728 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@2007435e{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-05-24 10:15:20.561  INFO 3728 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2022-05-24 10:15:20.572  INFO 3728 --- [main] c.a.p.ProductrestapiApplication          : Started ProductrestapiApplication in 3.233 seconds (JVM running for 3.791)
+2022-05-24 10:18:24.615  INFO 3728 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-24 10:18:24.622  INFO 3728 --- [RMI TCP Connection(6)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@2007435e{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-05-24 10:18:24.622  INFO 3728 --- [RMI TCP Connection(6)-127.0.0.1] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2022-05-24 10:18:24.623  INFO 3728 --- [RMI TCP Connection(6)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-24 10:18:24.623  INFO 3728 --- [RMI TCP Connection(6)-127.0.0.1] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@eed890d{application,/productapi,[file:///C:/Users/Asus/AppData/Local/Temp/jetty-docbase.8080.16423040412179975885/],STOPPED}
+2022-05-24 10:18:24.627  INFO 3728 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 10:18:24.628  INFO 3728 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 10:18:24.634  INFO 3728 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
